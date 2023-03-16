@@ -1,0 +1,25 @@
+.lead {
+  width: 100%;
+  min-height: 406px;
+  text-align: center;
+  padding-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    min-height: 862px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    min-height: 962px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    min-height: 1005px;
+    padding-top: 56px;
+  }
+}
