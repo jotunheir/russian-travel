@@ -7,6 +7,11 @@
   line-height: 20px;
   text-decoration-line: none;
   color: #FFFFFF;
+  transition: opacity 0.2s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
