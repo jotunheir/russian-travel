@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    min-width: 94%;
+    min-width: 93.75%;
     min-height: 52px;
     padding: 28px 24px 0 24px;
   }
@@ -24,6 +24,6 @@
 
 @media screen and (min-width: 1280px) {
   .header {
-    min-width: 93%;
+    min-width: 92.5%;
   }
 }
