@@ -1,5 +1,6 @@
 .lead__image-container {
   width: 100%;
+  margin: 0;
 }
 
 
@@ -13,6 +14,5 @@
 @media screen and (min-width: 1280px) {
   .lead__image-container {
     width: 77%;
-    margin: 0 auto 0 auto;
   }
 }
