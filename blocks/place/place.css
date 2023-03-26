@@ -9,23 +9,23 @@
 @media screen and (min-width: 768px) {
   .place {
     display: grid;
-    grid-template-columns: 47.22% 1fr;
-    grid-template-rows: minmax(46px, 92px) 1fr;
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     gap: 48px 28px;
+    margin-bottom: 73px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place {
-    grid-template-columns: calc((440*100)/1024) 1fr;
-    grid-template-rows: minmax(76px, 152px) 1fr;
+    grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
     gap: 48px 32px;
+    margin-bottom: 80px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns: calc((460*100)/1280) 1fr;
+    grid-template-columns: 460px 1fr;
     gap: 48px 40px;
   }
 }
